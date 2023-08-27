@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="login_page" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Login Form</title>
+        <meta charset="UTF-8">
+    </head>
+    <body style="background-color: pink;">
+      <form>  
+        <div >
+            <div style="width: 50%; float: left; padding: 20px;">
+            <fieldset style="border: dashed ; width: 270px; margin: 20px; border-color: #f66898; ">
+                <p >Please enter your credentials to login.</p>
+                <legend>Login</legend>
+                    <br>
+                <label>Username :</label>
+                <input style="margin-left: 5px;" type="text" required> 
+                    <br>
+                <label>Password :</label>
+                <input style="margin-top: 15px; margin-left: 6px;" type="password" required> 
+                    <br>
+                <button style="margin-left: 80px; margin-top: 20px;">login</button>
+                <p style="color: #ff0000;" class="message">Not registered? <a href="#">Create an account</a></p>
+            </fieldset> 
+        </div>
+        <div >   
+            <fieldset style=" border: dashed ; width: 450px; margin: 20px; border-color:  #f66898; ">
+                <legend >Sign-Up</legend>
+                    <br>
+            <div>
+                <label > Gender</label> <br>
+                <input type="radio", name="gender"> Male
+                <input type="radio", name="gender"> Female
+            </div>
+            <div>
+                <br>
+                <label > Choose your Subscription type: </label>
+                <input type="checkbox"> Primium
+                <input type="checkbox"> Classis 
+                <input type="checkbox"> Free
+            </div>
+            <div>
+                <br>
+            <label> Select your field: </label>    
+                <select name="Fiels">    
+                    <optgroup label="Field">
+                        <option> Marketing</option>
+                        <option> IT</option>
+                        <option> HR</option>
+                        <option> Logistic</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <br>
+                <textarea cols="30" rows="5"> Enter your comment here</textarea>
+            <div>
+        </div>
+            <button style="margin-left: 80px; margin-top: 20px;" type="submit"> SEND</button>
+            <button style="margin-left: 80px; margin-top: 20px;" type="submit"> RESET</button>
+        </div>
+      </form>
+    </body>
+</html>
